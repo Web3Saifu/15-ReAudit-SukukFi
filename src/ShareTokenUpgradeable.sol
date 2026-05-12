@@ -459,9 +459,10 @@ contract ShareTokenUpgradeable is Initializable, ERC20Upgradeable, Ownable2StepU
      * SPECIFICATION COMPLIANCE:
      * - ERC7540: Asynchronous Tokenized Vault Standard
      * - Centralized operator delegation
-     * - OperatorSet event emission
+     * - OperatorSet event emission 
      *
      * OPERATOR PERMISSIONS:
+     * 
      * Approved operators can:
      * - Call requestDeposit on behalf of owner
      * - Call requestRedeem on behalf of owner
